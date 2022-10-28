@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Ubuntu+Condensed&display=swap');
+@import url('http://fonts.cdnfonts.com/css/kg-happy');
+@import url('http://fonts.cdnfonts.com/css/neosans-light-tr');
+*{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.beranda, .tentang{
+  font-family: 'Poppins' !important;
+  height: 100vh;
+}
+.beranda header{
+  background: #ffffff;
+  border-top-color: #643033 !important;
+  z-index: 100;
+}
+.beranda .logoOsis{
+  width: 45px;
+}
+.beranda header li{
+  margin: 0 20px !important;
+}
+.beranda header a{
+  color: black !important;
+}
+.beranda button{
+  background: #643033;
+}
+.beranda main, .tentang main{
+  height: 100vh;
+}
+.beranda main .bg{
+  width: 450px;
+}
+.tentang{
+  background: #F6F6F6;
+}
+.ytb{
+  height: 40vh;
+  background-image: url('assets/akt29.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Bangers', cursive !important;
+}
+.ytb main{
+  height: 40vh;
+  background: rgba(30, 30, 30, 0.601);
+  backdrop-filter: blur(5px);
+  padding: 50px 150px !important;
+}
+.ig{
+  height: 40vh;
+  background-image: url('assets/sertijab.jpeg');
+  background-attachment: fixed;
+  background-position-y: 60%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Bangers', cursive !important;
+}
+.ig main{
+  height: 40vh;
+  background: rgba(30, 30, 30, 0.601);
+  backdrop-filter: blur(5px);
+  padding: 50px 150px !important;
+}
+.ig main .quote{
+  font-family: 'Ubuntu Condensed', sans-serif !important;
+}
+.visiMisi{
+  background: #643033;
+}
+.visiTxtWrapper{
+  background: #1a1a1a52;
+  width: 600px !important;
+}
+.sameNumWrapper{
+  background: #dd4a1d;
+  width: 40px;
+  height: 40px;
+}
+.tiktok{
+  height: 40vh;
+  background-image: url('assets/itSupport.JPG');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: 43%;
+  background-position-x: center;
+  background-size: cover;
+}
+.tiktok main{
+  height: 40vh;
+  background: rgba(30, 30, 30, 0.601);
+  backdrop-filter: blur(5px);
+  font-family: 'Bangers', cursive !important;
+  letter-spacing: 3px;
+  padding: 50px 150px !important;
+}
+.event{
+  height: 100vh;
+  padding: 100px 0 !important;
+  background: rgb(100,48,51);
+  background: linear-gradient(166deg, rgba(100,48,51,1) 0%, rgba(103,56,59,1) 41%, rgba(68,33,35,1) 100%);
+  background-size: 300%;
+  animation-name: movingBg;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes movingBg {
+  0%{
+    background-position: left;
+    background-position: right;
+  }
+}
+.event main{
+  width: 90vw;
+  height: 85vh;
+  padding: 0 195px !important;
+}
+.event main .kotakInfoWrapper{
+  overflow-y: scroll;
+  height: 75vh;
+  border-top: 20px solid rgba(255, 255, 255, 0);
+  border-bottom: 20px solid rgba(255, 255, 255, 0);
+}
+.event main .kotakInfoWrapper .samePoster{
+  width: 300px;
+}
+.event main .sameBg{
+  background: rgb(35, 35, 35);
+  border-radius: 10px;
+}
+.perumpamaan{
+  background: rgb(76, 37, 39);
+  height: 55vh;
+}
+.perumpamaanTxtWrapper{
+  font-family: 'NeoSans Light TR', sans-serif;
+  letter-spacing: 2px;
+}
+.clip{
+  background: rgb(100,48,51);
+  height: 70vh;
+}
+.clipTxt{
+  font-family: 'KG HAPPY', sans-serif;
+}
+.clip video{
+  width: 700px;
+}
+.footerBgWrapper{
+  height: 40vh;
+  background: url('assets/fotoBersama.jpeg');
+  background-attachment: fixed;
+  background-position-y: 45%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footerBgWrapper main{
+  height: 40vh;
+  background: rgba(30, 30, 30, 0.601);
+  padding: 50px 150px !important;
+}
+.footer{
+  height: 40vh;
+  background: #643033;
+}
+@media (max-width: 1200px){
+  .beranda header{
+    position: absolute;
+    left: -375px;
+    width: 375px;
+    height: 100vh;
+    background: #462224 !important;
+    color: white;
+    padding: 25px 30px !important;
+    transition: 0.5s;
+  }
+  .beranda header li{
+    margin: 13px 0 !important;
+    font-size: 18px;
+  }
+  .beranda header .icons{
+    width: 31px;
+    height: 31px;
+  }
+  .beranda header a{
+    color: white !important;
+  }
+  .aspirasi{
+    position: absolute;
+    bottom: 0;
+  }
+  .greating{
+    font-size: 2rem;
+  }
+  .exitWrapper{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 120;
+    top: 35px;
+    left: 30px;
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+  }
+  .exit{
+    width: 35px;
+    height: 2px;
+    background: #000;
+    transition: 0.5s;
+  }
+  .exit::after, .exit::before{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background: #000;
+    transition: 0.5s;
+  }
+  .exit::after{
+    transform: translateY(-9px);
+  }
+  .exit::before{
+    transform: translateY(9px);
+  }
+  body.sidebar .exitWrapper{
+    left: 330px;
+    backdrop-filter: none;
+  }
+  body.sidebar .exit{
+    background: none;
+  }
+  body.sidebar .exit::after{
+    transform: rotate(45deg);
+    background: white;
+  }
+  body.sidebar .exit::before{
+    transform: rotate(-45deg);
+    background: white;
+  }
+  .event main{
+    width: 90vw;
+    height: 85vh;
+    padding: 0 160px !important;
+  }
+  .clip video{
+    width: 650px;
+  }
+}
+@media (max-width:985px){
+  .footer{
+    height: 80vh;
+    font-size: 15px !important;
+  }
+  .event main{
+    width: 90vw;
+    height: 85vh;
+    padding: 0 90px !important;
+  }
+  .clip video{
+    width: 500px;
+  }
+}
+@media (max-width:768px){
+  .misi{
+    font-size: 1.5rem;
+  }
+  .ytb main{
+    height: 40vh;
+    background: rgba(30, 30, 30, 0.601);
+    backdrop-filter: blur(5px);
+    padding: 50px 50px !important;
+  }
+  .ig main{
+    height: 40vh;
+    background: rgba(30, 30, 30, 0.601);
+    backdrop-filter: blur(5px);
+    padding: 50px 50px !important;
+  }
+  .visiTxtWrapper{
+    width: 450px !important;
+  }
+  .tiktok main{
+    height: 40vh;
+    background: rgba(30, 30, 30, 0.601);
+    backdrop-filter: blur(5px);
+    font-family: 'Bangers', cursive !important;
+    letter-spacing: 3px;
+    padding: 50px 50px !important;
+  }
+  .event main{
+    width: 90vw;
+    height: 85vh;
+    padding: 0 30px !important;
+  }
+  .clip video{
+    width: 450px;
+  }
+}
+@media (max-width: 576px){
+  .beranda header .navbar{
+    flex-direction: column !important;
+    justify-content: start !important;
+    align-items: flex-start !important;
+  }
+  .beranda .title{
+    margin-left: 10px !important;
+  }
+  .beranda header ul{
+    flex-direction: column;
+    margin-top: 10px !important;
+    margin-left: 20px !important;
+  }
+  .landingPage, .tentangTxtWrapper{
+    flex-direction: column-reverse;
+    padding-left: 7vw !important;
+  }
+  .bgNepWrapper{
+    width: 330px;
+  }
+  .greatingWrapper, .tentangTxt{
+    width: 400px !important ;
+    margin-top: 30px !important;
+  }
+  .ytb main{
+    height: 40vh;
+    background: rgba(30, 30, 30, 0.601);
+    backdrop-filter: blur(5px);
+    padding: 50px 20px !important;
+  }
+  .ig main{
+    height: 40vh;
+    background: rgba(30, 30, 30, 0.601);
+    backdrop-filter: blur(5px);
+    padding: 20px 50px !important;
+  }
+  .tentangTxtWrapper{
+    width: 350px;
+    flex-direction: column;
+    padding-left: 7px !important;
+  }
+  .tentangTxtWrapper img{
+    width: 350px;
+  }
+  .visiTxtWrapper{
+    width: 380px !important;
+  }
+  .sameIllustrasionWrapper{
+    width: 300px !important;
+  }
+  .misiWrapper1, .misiWrapper3, .misiWrapper5, .misiWrapper7{
+    flex-direction: column;
+  }
+  .misiWrapper2, .misiWrapper4, .misiWrapper6{
+    flex-direction: column-reverse;
+  }
+  .misiWrapper{
+    width: 400px;
+  }
+  .misiWrapper1 img, .misiWrapper2 img, .misiWrapper3 img, .misiWrapper4 img, .misiWrapper5 img, .misiWrapper6 img, .misiWrapper7 img{
+    margin-top: 40px !important;
+  }
+  .perumpamaan{
+    display: flex;
+    justify-content: center;
+  }
+  .perumpamaan .col-xxl-2{
+    display: none;
+  }
+  .perumpamaanTxtWrapper{
+    text-align: center;
+    width: 85vw;
+  }
+  hr{
+    margin-top: 50px !important;
+  }
+  .footer{
+    flex-wrap: wrap;
+    padding: 30px 30px !important;
+  }
+  .box2{
+    width: 300px;
+  }
+  .clipTxt{
+    font-family: 'KG HAPPY', sans-serif;
+    font-size: 20px !important;
+  }
+  .clip video{
+    width: 350px;
+  }
+}
+@media (max-width: 521px){
+  .beranda header{
+    position: absolute;
+    left: -375px;
+    width: 310px;
+    height: 100vh;
+    background: #462224 !important;
+    color: white;
+    padding: 20px 25px !important;
+    transition: 0.5s;
+  }
+  .beranda .title{
+    font-size: 15px;
+  }
+  .beranda header li{
+    margin: 13px 0 !important;
+    font-size: 14px;
+  }
+  body.sidebar .exitWrapper{
+    top: 30px;
+    left: 270px;
+    backdrop-filter: none;
+  }
+  .event main{
+    width: 90vw;
+    height: 85vh;
+    padding: 0 5px !important;
+  }
+  .clipTxt{
+    font-family: 'KG HAPPY', sans-serif;
+    font-size: 27px !important;
+  }
+  .clip video{
+    width: 420px;
+  }
+}
+@media (max-width: 455px){
+  .clipTxt{
+    font-family: 'KG HAPPY', sans-serif;
+    font-size: 25px !important;
+  }
+  .clip video{
+    width: 360px;
+  }
+}
+@media (max-width:429px){
+  .landingPage, .tentangTxtWrapper{
+    flex-direction: column-reverse;
+    width: 370px;
+  }
+  .tentangTxtWrapper{
+    width: 350px;
+    flex-direction: column;
+    padding-left: 7px !important;
+  }
+  .ig main{
+    height: 40vh;
+    background: rgba(30, 30, 30, 0.601);
+    backdrop-filter: blur(5px);
+    padding: 50px 20px !important;
+  }
+  .misiWrapper{
+    width: 330px;
+  }
+}
+@media (max-width:396px){
+  .landingPage, .tentangTxtWrapper{
+    flex-direction: column-reverse;
+    width: 330px;
+    padding-left: 0vw !important;
+    font-size: 15px !important;
+  }
+  .tentangTxtWrapper{
+    width: 330px;
+    flex-direction: column;
+    padding-left: 0px !important;
+  }
+  .visiTxtWrapper{
+    width: 300px !important;
+  }
+  .visiTxtWrapper h5{
+    font-size: 15px !important;
+  }
+  .ytb{
+    height: 20vh;
+    background-image: url('assets/akt29.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bangers', cursive !important;
+  }
+  .ytb main{
+    height: 20vh;
+    background: rgba(30, 30, 30, 0.601);
+    backdrop-filter: blur(5px);
+    padding: 30px 20px !important;
+  }
+  .ytb h1, .ig h1{
+    font-size: 20px !important;
+  }
+  .ytb h4, .ig h4{
+    font-size: 16px !important;
+  }
+  .ig{
+    height: 30vh;
+    background-image: url('assets/sertijab.jpeg');
+    background-position-y: 60%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bangers', cursive !important;
+  }
+  .ig main{
+    height: 30vh;
+    background: rgba(30, 30, 30, 0.601);
+    backdrop-filter: blur(5px);
+    padding: 30px 25px !important;
+  }
+  .misiWrapper{
+    width: 300px;
+    font-size: 10px !important;
+  }
+  .misiWrapper h5{
+    font-size: 17px !important;
+  }
+  .misiWrapper1 img, .misiWrapper2 img, .misiWrapper3 img, .misiWrapper4 img, .misiWrapper5 img, .misiWrapper6 img, .misiWrapper7 img{
+    margin-top: 40px !important;
+    width: 200px !important;
+  }
+  .clipTxt{
+    font-family: 'KG HAPPY', sans-serif;
+    font-size: 20px !important;
+  }
+  .clip video{
+    width: 320px;
+  }
+  .box{
+    width: 400px !important;
+  }
+  .box3{
+    width: 250px !important;
+  }
+}
+@media (max-width: 366px){
+  .landingPage, .tentangTxtWrapper{
+    flex-direction: column-reverse;
+    width: 280px;
+    padding-left: 0vw !important;
+    font-size: 15px !important;
+  }
+  .tentangTxtWrapper{
+    width: 280px;
+    flex-direction: column;
+    padding-left: 0px !important;
+  }
+  .tiktok{
+    height: 30vh;
+  }
+  .tiktok main{
+    height: 30vh;
+    background: rgba(30, 30, 30, 0.601);
+    backdrop-filter: blur(5px);
+    font-family: 'Bangers', cursive !important;
+    letter-spacing: 3px;
+    padding: 30px 20px !important;
+  }
+  .tiktok main h2{
+    font-size: 25px !important;
+  }
+}
+@media (max-width:314px){
+  .ig{
+    height: 33vh;
+    background-image: url('assets/sertijab.jpeg');
+    background-position-y: 60%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bangers', cursive !important;
+  }
+  .ig main{
+    height: 33vh;
+    background: rgba(30, 30, 30, 0.601);
+    backdrop-filter: blur(5px);
+    padding: 30px 25px !important;
+  }
+  .visiTxtWrapper{
+    width: 250px !important;
+    padding: 17px !important;
+  }
+  .visiTxtWrapper h5{
+    font-size: 13px !important;
+  }
+  .misiWrapper{
+    width: 230px;
+    font-size: 10px !important;
+  }
+}
